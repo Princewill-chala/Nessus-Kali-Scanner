@@ -3,12 +3,12 @@ A structured, beginner‑friendly document to install and use Nessus on Kali Lin
 
 ### Table of contents
 
-- [Introduction](fr
+- [Introduction](#Introduction)
 - [Objective](#Objective)
 - [Tools](#Tools)
 - [Installation](#Installation)
 - [Confirmation](#Confirmation)
-- Conclusion
+- [Conclusion](#Conclusion)
 
 ## Introduction
 **Nessus** by **Tenable** is a top-tier **vulnerability scanner** that detects CVEs, missing patches, and misconfigurations across systems and networks. Kali Linux makes an ideal host for it in penetration testing labs and cybersecurity learning environments.
@@ -40,4 +40,4 @@ sudo systemctl enable nessusd
 ## Confirmation
 Visit `https://localhost:8834` → register/sign in **Nessus Essentials**
 ![Nessus](nessus_tenable.png)
-![Dashboard]
+![Dashboard](nessus_dashboard.png)
