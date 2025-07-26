@@ -16,14 +16,22 @@ A structured, beginner‑friendly document to install and use Nessus on Kali Lin
 ## Objective
 Provide a clear, reproducible procedure to **download, install, activate, and use Nessus on Kali Linux**, run your first vulnerability scan, and view tools for reporting and troubleshooting
 
-# Tools
+## Tools
 - Operating System : ***Kali Linux***
 - Browser : ***Firefox***
 - Software : ***Nessus from Tenable***
 - Privileges : ***Sudo/root***
 
-# Installation
-Download `.deb` from Tenable >>
+## Installation
+Download `.deb` from Tenable on firefox selecting Linux OS >>
 ```bash
 sudo dpkg -i Nessus-10*.deb
+```
+![Installation](nessus_install.png)
+
+## Configuration
+Start up Nessus and enable
+```bash
+sudo systemctl start nessusd
+sudo systemctl enable nessusd
 ```
