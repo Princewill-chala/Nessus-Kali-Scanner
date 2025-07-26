@@ -3,11 +3,11 @@ A structured, beginner‑friendly document to install and use Nessus on Kali Lin
 
 ### Table of contents
 
-- Introduction
-- Objective
-- Tools
-- Installation
-- Confirmation
+- [Introduction](fr
+- [Objective](#Objective)
+- [Tools](#Tools)
+- [Installation](#Installation)
+- [Confirmation](#Confirmation)
 - Conclusion
 
 ## Introduction
@@ -38,4 +38,6 @@ sudo systemctl enable nessusd
 ![start](nessus_start.png)
 
 ## Confirmation
-Visit `https://localhost:8834` → register **Nessus Essentials**
+Visit `https://localhost:8834` → register/sign in **Nessus Essentials**
+![Nessus](nessus_tenable.png)
+![Dashboard]
