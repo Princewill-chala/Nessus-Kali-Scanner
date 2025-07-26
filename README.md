@@ -36,3 +36,6 @@ sudo systemctl start nessusd
 sudo systemctl enable nessusd
 ```
 ![start](nessus_start.png)
+
+## Confirmation
+Visit `https://localhost:8834` → register **Nessus Essentials**
